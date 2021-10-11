@@ -25,7 +25,7 @@ class BreweryProvider with ChangeNotifier {
     } catch (err) {}
   }
 
-  BreweryModel findById(int id) {
+  BreweryModel findById(String id) {
     return _bList.firstWhere((brew) => brew.id == id);
   }
 }

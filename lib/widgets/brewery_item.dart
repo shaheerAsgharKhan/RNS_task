@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../screens/brewery_detail_screen.dart';
 
 class BreweryItem extends StatelessWidget {
-  final int id;
+  final String id;
   final String name;
   BreweryItem(this.id, this.name);
 
